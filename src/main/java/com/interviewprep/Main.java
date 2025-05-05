@@ -3,6 +3,7 @@ package com.interviewprep;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 
 public class Main {
@@ -19,10 +20,14 @@ public class Main {
         
         
         try {
+        	Logger.setLogger(new OutputFileHandler(new FileWriter("log.txt")));
         	IInputFileHandler inputFileHandler = new InputFileHandler(new FileReader(inputFile));
 			List<String> sortedNames = NameSorterHandler.sorterHandler(inputFileHandler.readAllLines());
 			IOutputFileHandler outputFileHandler = new OutputFileHandler(new FileWriter(outputFile));
 			outputFileHandler.writeLinesToFile(sortedNames);
+			outputFileHandler.close();
+			inputFileHandler.close();
+			Logger.close();
 			OutputConsoleHandler.writeLinesToConsole(sortedNames);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

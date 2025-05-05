@@ -21,6 +21,7 @@ public class InputFileHandler implements IInputFileHandler{
         	ch=myReader.read();
         }
         
+        Logger.writeToLog("Read lines");
         return Arrays.asList(allLines.split("\n"));
 	}
 	

@@ -4,15 +4,35 @@ import java.io.IOException;
 
 public class Logger {
 	
-	private IOutputFileHandler logger;
+	private static IOutputFileHandler logger;
 	
-	public Logger(IOutputFileHandler logger) throws IOException {
-		this.logger = logger;
-		logger.writeLineToFile("Log Begins:");
+	public static void setLogger(IOutputFileHandler logger) {
+		Logger.logger = logger;
+		try {
+			logger.writeLineToFile("Log Begins:\n");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
-	public void writeToLog(String line) throws IOException {
-		logger.writeLineToFile(line);
+	public static void writeToLog(String line) {
+		try {
+			logger.writeLineToFile(line + "\n");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
+	
+	public static void close() {
+		try {
+			Logger.logger.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
 
 }

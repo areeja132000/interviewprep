@@ -17,8 +17,9 @@ public class OutputFileHandler implements IOutputFileHandler {
 	}
 	
 	public void writeLinesToFile(List<String> lines) throws IOException {
+		Logger.writeToLog("Wrote to log");
 		for (String line: lines) {
-			writeLineToFile(line);
+			writeLineToFile(line + "\n");
 		}
 	}
 	

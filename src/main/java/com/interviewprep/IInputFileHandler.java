@@ -5,4 +5,5 @@ import java.util.List;
 
 public interface IInputFileHandler {
 	public List<String> readAllLines() throws IOException;
+	public void close() throws IOException;
 }

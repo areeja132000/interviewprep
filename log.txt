@@ -1,0 +1,4 @@
+Log Begins:
+Read lines
+Sorted names
+Wrote to log

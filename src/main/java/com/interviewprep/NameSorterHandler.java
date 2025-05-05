@@ -23,6 +23,8 @@ public class NameSorterHandler {
 			sortedNames.add(person.toString());
 		}
 		
+		Logger.writeToLog("Sorted names");
+		
 		//Return sorted strings
 		return sortedNames;
 	}
