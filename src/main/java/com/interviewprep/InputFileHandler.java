@@ -5,7 +5,13 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class InputFileHandler implements IInputFileHandler{
+	
+	private static final Logger LOGGER = LogManager.getLogger();
+	
 	private FileReader myReader;
 	
 	public InputFileHandler(FileReader myReader) throws IOException {
@@ -21,7 +27,7 @@ public class InputFileHandler implements IInputFileHandler{
         	ch=myReader.read();
         }
         
-        Logger.writeToLog("Read lines");
+        LOGGER.info("Read lines");
         return Arrays.asList(allLines.split("\n"));
 	}
 	

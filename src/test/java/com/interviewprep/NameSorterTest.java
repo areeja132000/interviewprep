@@ -41,7 +41,8 @@ class NameSorterTest {
 	}
 
 	@Test
-	void testNullList() {
+	//The function name, parameter, expected output
+	void sortNames_NullList_Null() {
 		List<Person> unsortedNames = null; 
 		
 		NameSorter.sortNames(unsortedNames);

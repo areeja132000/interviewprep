@@ -1,0 +1,33 @@
+2025-05-07 01:23:14,995 [main] INFO com.interviewprep.Main - 2025-05-07T01:23:14.986254200: Start program
+2025-05-07 01:23:15,001 [main] INFO com.interviewprep.InputFileHandler - Read lines
+
+2025-05-07 01:23:15,004 [main] INFO com.interviewprep.NameSorterHandler - Sorted names
+
+2025-05-07 01:23:15,004 [main] INFO com.interviewprep.OutputFileHandler - Wrote to log
+2025-05-07 01:23:15,006 [main] INFO com.interviewprep.NameSorterHandler - Wrote names to file
+
+2025-05-07 01:24:19,015 [main] INFO com.interviewprep.Main - Start program
+2025-05-07 01:24:19,020 [main] INFO com.interviewprep.InputFileHandler - Read lines
+2025-05-07 01:24:19,024 [main] INFO com.interviewprep.NameSorterHandler - Sorted names
+2025-05-07 01:24:19,024 [main] INFO com.interviewprep.OutputFileHandler - Wrote to log
+2025-05-07 01:24:19,026 [main] INFO com.interviewprep.NameSorterHandler - Wrote names to file
+2025-05-07 01:44:23,693 [main] INFO com.interviewprep.Main - Start program
+2025-05-07 01:44:23,699 [main] INFO com.interviewprep.InputFileHandler - Read lines
+2025-05-07 01:44:23,702 [main] INFO com.interviewprep.NameSorterHandler - Sorted names
+2025-05-07 01:44:23,703 [main] INFO com.interviewprep.NameSorterHandler - Wrote names to file
+2025-05-07 06:12:58,168 [main] INFO com.interviewprep.Main - Start program
+2025-05-07 06:12:58,217 [main] INFO com.interviewprep.InputFileHandler - Read lines
+2025-05-07 06:12:58,220 [main] INFO com.interviewprep.NameSorterHandler - Sorted names
+2025-05-07 06:12:58,221 [main] INFO com.interviewprep.NameSorterHandler - Wrote names to file
+2025-05-07 06:16:43,703 [main] INFO com.interviewprep.Main - Start program
+2025-05-07 06:16:43,709 [main] INFO com.interviewprep.InputFileHandler - Read lines
+2025-05-07 06:16:43,713 [main] INFO com.interviewprep.NameSorterHandler - Sorted names
+2025-05-07 06:16:43,713 [main] INFO com.interviewprep.NameSorterHandler - Wrote names to file
+2025-05-07 06:17:24,049 [main] INFO com.interviewprep.Main - Start program
+2025-05-07 06:17:24,054 [main] INFO com.interviewprep.InputFileHandler - Read lines
+2025-05-07 06:17:24,057 [main] INFO com.interviewprep.NameSorterHandler - Sorted names
+2025-05-07 06:17:24,057 [main] INFO com.interviewprep.NameSorterHandler - Wrote names to file
+2025-05-07 06:19:11,694 [main] INFO com.interviewprep.Main - Start program
+2025-05-07 06:19:11,702 [main] INFO com.interviewprep.InputFileHandler - Read lines
+2025-05-07 06:19:11,704 [main] INFO com.interviewprep.NameSorterHandler - Sorted names
+2025-05-07 06:19:11,705 [main] INFO com.interviewprep.NameSorterHandler - Wrote names to file
